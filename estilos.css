@@ -8,7 +8,7 @@
     /* column-gap: 1em;  Dar espaciado entre las columnas*/
     /* row-gap: Para dar espacio a las filas  */ 
    /*  justify-items: start; */ /* Organizar los elementos de acuerdo al espaciado de forma horizontal/
-     align-items: stretch; organizar los elementos de acuerdo al espacio que ocupan de forma vertical/*
+     align-items: stretch; organizar los elementos de acuerdo al espacio que ocupan de forma vertical*/
 }
 .element1{
     grid-column: 1/4; /* Para abarcar mas espacio entre lineas */
