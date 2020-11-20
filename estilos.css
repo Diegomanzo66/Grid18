@@ -1,0 +1,63 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;  /* Dar espaciado  */
+    grid-auto-rows: minmax(100px,auto);/* Establecer el valor minimo y maximo de la fila */
+
+    
+    /* column-gap: 1em;  Dar espaciado entre las columnas*/
+    /* row-gap: Para dar espacio a las filas  */ 
+   /*  justify-items: start; */ /* Organizar los elementos de acuerdo al espaciado de forma horizontal/
+     align-items: stretch; organizar los elementos de acuerdo al espacio que ocupan de forma vertical
+}
+.element1{
+    grid-column: 1/4; /* Para abarcar mas espacio entre lineas */
+    grid-row: 1/3;
+}
+.element2{
+    grid-column: 1/2;
+
+}
+.element3{
+grid-column: 2/4;
+}
+
+
+/*.element1{
+    align-self: start;  Para alinear cada uno de los elementos 
+}
+
+.element2{
+align-self: center;
+}
+.element3{
+align-self: end;
+}
+.element4{
+justify-self: start;
+}
+.element5{
+justify-self: center;
+}
+.element6{
+justify-self: end;
+} */
+/* .nested-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 100px;
+    gap: 1em;
+}
+.nested-grid > div{
+    border: 1px solid #000 ;
+    background: #f1c40f;
+    padding: 1em;
+
+} */
+.grid > div{
+    background: #ecf0f1;
+    padding: 1em;
+}
+.grid > div:hover{
+    border: 1px solid #f1c40f;
+}
